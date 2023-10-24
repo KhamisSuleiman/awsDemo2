@@ -4,10 +4,10 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 
 // Create a connection to your RDS database
-$servername = "mydb.c2wzbzgqfrv5.us-east-1.rds.amazonaws.com";
+$servername = "demo-db.c2wzbzgqfrv5.us-east-1.rds.amazonaws.com";
 $username = "khamis";
 $password = "kala1994";
-$dbname = "mydb";
+$dbname = "Demo-DB";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
